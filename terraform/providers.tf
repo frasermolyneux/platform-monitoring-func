@@ -21,3 +21,17 @@ provider "azurerm" {
     }
   }
 }
+
+provider "azurerm" {
+  alias           = "geolocation"
+  subscription_id = var.geolocation_app_insights.subscription_id
+
+  features {}
+}
+
+provider "azurerm" {
+  alias           = "portal"
+  subscription_id = var.portal_app_insights.subscription_id
+
+  features {}
+}

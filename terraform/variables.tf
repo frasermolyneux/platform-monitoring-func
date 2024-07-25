@@ -13,6 +13,26 @@ variable "instance" {
 
 variable "subscription_id" {}
 
+variable "geolocation_app_insights" {
+  type = object({
+    subscription_id     = string
+    resource_group_name = string
+    name                = string
+  })
+}
+
+variable "portal_app_insights" {
+  type = object({
+    subscription_id     = string
+    resource_group_name = string
+    name                = string
+  })
+}
+
+variable "test_config" {
+  type = string
+}
+
 variable "log_analytics_subscription_id" {}
 variable "log_analytics_resource_group_name" {}
 variable "log_analytics_workspace_name" {}
