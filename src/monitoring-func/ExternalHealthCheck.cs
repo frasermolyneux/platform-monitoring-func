@@ -63,13 +63,10 @@ public class ExternalHealthCheck
                 }
                 availability.Success = true;
             }
-
             catch (Exception ex)
             {
                 availability.Message = ex.Message;
-                throw;
             }
-
             finally
             {
                 stopwatch.Stop();
