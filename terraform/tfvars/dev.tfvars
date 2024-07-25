@@ -19,37 +19,37 @@ portal_app_insights = {
 test_config = <<-JSON
 [
   {
-    "App": "fn-portal-event-ingest-dev-uksouth-01-fafcb30ca7e0"
+    "App": "fn-portal-event-ingest-dev-uksouth-01-fafcb30ca7e0",
     "AppInsights": "portal",
     "Uri": "https://fn-portal-event-ingest-dev-uksouth-01-fafcb30ca7e0.azurewebsites.net/api/health"
   },
   {
-    "App": "app-portal-repo-dev-uksouth-01-ebd9159c6051"
+    "App": "app-portal-repo-dev-uksouth-01-ebd9159c6051",
     "AppInsights": "portal",
     "Uri": "https://app-portal-repo-dev-uksouth-01-ebd9159c6051.azurewebsites.net/api/health"
   },
   {
-    "App": "fn-portal-repo-func-dev-uksouth-01-be9e6fe6e9c7"
+    "App": "fn-portal-repo-func-dev-uksouth-01-be9e6fe6e9c7",
     "AppInsights": "portal",
     "Uri": "https://fn-portal-repo-func-dev-uksouth-01-be9e6fe6e9c7.azurewebsites.net/api/health"
   },
   {
-    "App": "app-portal-servers-int-dev-uksouth-01-32s5yslgz4hea"
+    "App": "app-portal-servers-int-dev-uksouth-01-32s5yslgz4hea",
     "AppInsights": "portal",
     "Uri": "https://app-portal-servers-int-dev-uksouth-01-32s5yslgz4hea.azurewebsites.net/api/health"
   },
   {
-    "App": "fn-portal-sync-dev-uksouth-01-f65d076b94fb"
+    "App": "fn-portal-sync-dev-uksouth-01-f65d076b94fb",
     "AppInsights": "portal",
     "Uri": "https://fn-portal-sync-dev-uksouth-01-f65d076b94fb.azurewebsites.net/api/health"
   },
   {
-    "App": "app-geolocation-api-dev-uksouth-01-3omiauqb7et4w"
+    "App": "app-geolocation-api-dev-uksouth-01-3omiauqb7et4w",
     "AppInsights": "geolocation",
     "Uri": "https://app-geolocation-api-dev-uksouth-01-3omiauqb7et4w.azurewebsites.net/api/health"
   },
   {
-    "App": "app-geolocation-web-dev-uksouth-01-tzcaho2oarnae"
+    "App": "app-geolocation-web-dev-uksouth-01-tzcaho2oarnae",
     "AppInsights": "geolocation",
     "Uri": "https://app-geolocation-web-dev-uksouth-01-tzcaho2oarnae.azurewebsites.net/api/health"
   }

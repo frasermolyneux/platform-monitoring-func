@@ -19,42 +19,42 @@ portal_app_insights = {
 test_config = <<-JSON
 [
   {
-    "App": "fn-portal-event-ingest-prd-uksouth-01-0a313c960b27"
+    "App": "fn-portal-event-ingest-prd-uksouth-01-0a313c960b27",
     "AppInsights": "portal",
     "Uri": "https://fn-portal-event-ingest-prd-uksouth-01-0a313c960b27.azurewebsites.net/api/health"
   },
   {
-    "App": "app-portal-repo-prd-uksouth-01-b8f876e0fb09"
+    "App": "app-portal-repo-prd-uksouth-01-b8f876e0fb09",
     "AppInsights": "portal",
     "Uri": "https://app-portal-repo-prd-uksouth-01-b8f876e0fb09.azurewebsites.net/api/health"
   },
   {
-    "App": "fn-portal-repo-func-prd-uksouth-01-f72fbef87dc5"
+    "App": "fn-portal-repo-func-prd-uksouth-01-f72fbef87dc5",
     "AppInsights": "portal",
     "Uri": "https://fn-portal-repo-func-prd-uksouth-01-f72fbef87dc5.azurewebsites.net/api/health"
   },
   {
-    "App": "app-portal-servers-int-prd-uksouth-01-bxxyivgotrxya"
+    "App": "app-portal-servers-int-prd-uksouth-01-bxxyivgotrxya",
     "AppInsights": "portal",
     "Uri": "https://app-portal-servers-int-prd-uksouth-01-bxxyivgotrxya.azurewebsites.net/api/health"
   },
   {
-    "App": "fn-portal-sync-prd-uksouth-01-e7b4c78e276d"
+    "App": "fn-portal-sync-prd-uksouth-01-e7b4c78e276d",
     "AppInsights": "portal",
     "Uri": "https://fn-portal-sync-prd-uksouth-01-e7b4c78e276d.azurewebsites.net/api/health"
   },
   {
-    "App": "app-portal-web-prd-uksouth-01-l6supxzf6itfq"
+    "App": "app-portal-web-prd-uksouth-01-l6supxzf6itfq",
     "AppInsights": "portal",
     "Uri": "https://app-portal-web-prd-uksouth-01-l6supxzf6itfq.azurewebsites.net/api/health"
   },
   {
-    "App": "app-geolocation-api-prd-uksouth-01-queggvl6v5yta"
+    "App": "app-geolocation-api-prd-uksouth-01-queggvl6v5yta",
     "AppInsights": "geolocation",
     "Uri": "https://app-geolocation-api-prd-uksouth-01-queggvl6v5yta.azurewebsites.net/api/health"
   },
   {
-    "App": "app-geolocation-web-prd-uksouth-01-ndrrqvrn34qke"
+    "App": "app-geolocation-web-prd-uksouth-01-ndrrqvrn34qke",
     "AppInsights": "geolocation",
     "Uri": "https://app-geolocation-web-prd-uksouth-01-ndrrqvrn34qke.azurewebsites.net/api/health"
   }
