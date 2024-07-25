@@ -70,9 +70,6 @@ jobs:
       matrix:
         func_app: ${{ fromJSON(needs.terraform-plan-and-apply-dev.outputs.func_apps) }}
 
-    concurrency: # This is required to prevent multiple GitHub Actions invocations against stateful resources. e.g. Terraform state file / Database / Deployed Apps
-      group: ${{ github.repository }}-dev
-
     steps:
     - uses: actions/checkout@v4
 
@@ -126,9 +123,6 @@ jobs:
     strategy:
       matrix:
         func_app: ${{ fromJSON(needs.terraform-plan-and-apply-prd.outputs.func_apps) }}
-
-    concurrency: # This is required to prevent multiple GitHub Actions invocations against stateful resources. e.g. Terraform state file / Database / Deployed Apps
-      group: ${{ github.repository }}-prd
 
     steps:
     - uses: actions/checkout@v4
