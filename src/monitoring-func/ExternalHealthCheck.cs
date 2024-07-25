@@ -34,7 +34,7 @@ public class ExternalHealthCheck
                     ConnectionString = configuration[$"{testConfig.AppInsights.ToLower()}_appinsights_connection_string"],
                     TelemetryChannel = new InMemoryChannel()
                 };
-                telemetryClients.Add(testConfig.App, new TelemetryClient(telemetryConfiguration));
+                telemetryClients.Add(testConfig.AppInsights, new TelemetryClient(telemetryConfiguration));
             }
 
             var telemetryClient = telemetryClients[testConfig.AppInsights];
