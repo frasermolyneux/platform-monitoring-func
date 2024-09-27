@@ -20,6 +20,8 @@ provider "azurerm" {
       prevent_deletion_if_contains_resources = false
     }
   }
+
+  storage_use_azuread = true
 }
 
 provider "azurerm" {
@@ -27,6 +29,8 @@ provider "azurerm" {
   subscription_id = var.geolocation_app_insights.subscription_id
 
   features {}
+
+  storage_use_azuread = true
 }
 
 provider "azurerm" {
@@ -34,4 +38,6 @@ provider "azurerm" {
   subscription_id = var.portal_app_insights.subscription_id
 
   features {}
+
+  storage_use_azuread = true
 }
