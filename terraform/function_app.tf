@@ -35,8 +35,6 @@ resource "azurerm_linux_function_app" "app" {
   }
 
   app_settings = {
-    "READ_ONLY_MODE"                             = var.environment == "prd" ? "true" : "false"
-    "WEBSITE_RUN_FROM_PACKAGE"                   = "1"
     "ApplicationInsightsAgent_EXTENSION_VERSION" = "~3"
 
     "portal_appinsights_connection_string"      = data.azurerm_application_insights.portal.connection_string
