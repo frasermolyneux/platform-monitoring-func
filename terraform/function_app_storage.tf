@@ -14,7 +14,7 @@ resource "azurerm_storage_account" "function_app_storage" {
   min_tls_version            = "TLS1_2"
 
   local_user_enabled        = false
-  shared_access_key_enabled = false
+  shared_access_key_enabled = true
 
   tags = var.tags
 }
